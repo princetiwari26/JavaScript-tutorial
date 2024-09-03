@@ -42,3 +42,55 @@ In JavaScript, a logical assignment operator performs a logical operation on the
     ||= (Logical OR Assignment)	        a ||= b	    a = a || b
     ??= (Nullish Coalescing Assignment)	a ??= b	    a = a ?? b
  */
+
+
+
+/* ----------- Addition Assignment Operator ----------- */
+let a = 5;
+a += 3;  // equivalent to a = a + 3
+console.log(a);  // Output: 8
+
+/* ----------- Subtraction Assignment Operator ----------- */
+let b = 5;
+b -= 2;  // equivalent to b = b - 2
+console.log(b);  // Output: 3
+
+/* ----------- Multiplication Assignment Operator ----------- */
+let c = 5;
+c *= 4;  // equivalent to c = c * 4
+console.log(c);  // Output: 20
+
+/* ----------- Division Assignment Operator ----------- */
+let d = 20;
+d /= 4;  // equivalent to d = d / 4
+console.log(d);  // Output: 5
+
+/* ----------- Modulus Assignment Operator ----------- */
+let e = 10;
+e %= 3;  // equivalent to e = e % 3
+console.log(e);  // Output: 1
+
+/* ----------- Exponentiation Assignment Operator ----------- */
+let f = 2;
+f **= 3;  // equivalent to f = f ** 3
+console.log(f);  // Output: 8
+
+
+
+/* ----------- Bitwise AND Assignment Operator ----------- */
+let g = 7; 
+g &= 5;
+console.log(g);
+
+/* ----------- Bitwise OR Assignment Operator ----------- */
+let h = 7; 
+h |= 5;
+console.log(h);
+
+/* ----------- Bitwise XOR Assignment Operator ----------- */
+let i = 7; 
+i ^= 5;
+console.log(i);
+
+/* ----------- Addition Assignment Operator ----------- */
+/* ----------- Addition Assignment Operator ----------- */
