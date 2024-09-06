@@ -15,10 +15,54 @@
 */
 
 
+/* =============== Bitwise AND (&) =============== */
+console.log('Bitwise AND');
+let a = 5;  // Binary: 0101
+let b = 3;  // Binary: 0011
+let result = a & b;  // Binary: 0001
+console.log(result); // Output: 1
 
-let a = 4; 
-let b = 1; 
 
-console.log("A & B = " + (a & b)); 
-console.log("A | B = " + (a | b)); 
-console.log("~A = " + (~a));
+/* ===============  Bitwise OR (|) =============== */
+console.log('Bitwise OR');
+let c = 5;  // Binary: 0101
+let d = 3;  // Binary: 0011
+let result2 = c | d;  // Binary: 0111
+console.log(result2); // Output: 7
+
+
+/* ===============  Bitwise XOR (^) =============== */
+console.log('Bitwise XOR');
+let e = 5;  // Binary: 0101
+let f = 3;  // Binary: 0011
+let result3 = e ^ f;  // Binary: 0110
+console.log(result3); // Output: 6
+
+
+/* ===============  Bitwise NOT (~) =============== */
+console.log('Bitwise NOT');
+let g = 5;  // Binary: 0101
+let result4 = ~g;     // Binary: 1010 (2's complement, result is -6)
+console.log(result4); // Output: -6
+
+
+/* ===============   Left Shift (<<) =============== */
+console.log(' Left Shift');
+let h = 5;  // Binary: 0101
+let result5 = h << 1; // Binary: 1010
+console.log(result5); // Output: 10
+
+
+/* ===============  Right Shift (>>) =============== */
+console.log('Right Shift');
+let i = 5;  // Binary: 0101
+let result6 = i >> 1; // Binary: 0010
+console.log(result6); // Output: 2
+
+
+
+/* ===============  Unsigned Right Shift (>>>) =============== */
+console.log('Unsigned Right Shift');
+let j = -5; // Binary: 11111111111111111111111111111011 (2's complement)
+let result7 = j >>> 1; // Binary: 01111111111111111111111111111101
+console.log(result7);  // Output: 2147483645
