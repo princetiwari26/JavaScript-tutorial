@@ -24,6 +24,7 @@ console.log(x);
 
 
 // Example 2
+// The most useful application of the comma operator is in loops. In loops, it is used to update multiple variables in the same expression.
 console.log('Example 2 ---- ');
 for (let a = 0, b =5; a <= 5; a++, b--) {
     console.log(a, b);
