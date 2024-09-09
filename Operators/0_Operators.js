@@ -9,9 +9,5 @@ JavaScript Logical Operators
 JavaScript Bitwise Operators
 JavaScript Ternary Operators
 JavaScript Comma Operators
-JavaScript Unary Operators
-JavaScript Relational Operators
-JavaScript BigInt Operators
-JavaScript String Operators
 
 */
