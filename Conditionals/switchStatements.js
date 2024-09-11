@@ -43,6 +43,7 @@ console.log(day);
 
 // The break Keyword =====
 // When JavaScript reaches a break keyword, it breaks out of the switch block.
+// The break the keyword is used to terminate the execution of a loop or a switch statement.
 
 // The default Keyword =====
 // The default keyword specifies the code to run if there is no case match:
@@ -63,3 +64,5 @@ switch (grade) {
         result = "No Grade";
 }
 console.log(result);
+
+// If default is not the last case in the switch block, remember to end the default case with a break.
